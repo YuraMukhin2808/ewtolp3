@@ -1,7 +1,7 @@
 ﻿from sys import argv
 import time
 script, user_name, user_famile, first, second = argv
-prompt = '> '
+prompt = ':>> '
 t = time.localtime()
 current_time = time.strftime("%H:%M:%S", t)
 print(f"Привет, {user_name} {user_famile}, {first} я - сценарий {script}.")
